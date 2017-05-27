@@ -22,7 +22,7 @@ $(function(){
 		anim(num);
 	}).eq(0).click();
 	function anim(num){
-		var str="img/bg-"+num+".jpg";
+		var str="img/bg-"+num+".jpeg";
 		$(".bg").css("background-image","url("+str+")");
 		$(".bg-"+num).slideDown(900).siblings().slideUp(900);
 		$(".bg-"+num).find("h3").addClass("bgchg").end().siblings().find("h3").removeClass("bgchg");
